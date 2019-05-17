@@ -1,0 +1,946 @@
+/* CSS Document */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#EFEFEF;
+	line-height:120%;
+}
+
+.tvo_center{
+	width:942px;
+	background-color:#FFFFFF;
+	margin:auto auto;
+}
+
+.b0{
+	border:0px;
+}
+
+.focus_input{
+	 background-color: #FCFBBB !important;
+	 border: 1px solid #E78F08 !important;
+	 z-box-shadow: 0 0 3px #E78F08;
+	 -webkit-box-shadow: 0 0 3px #E78F08;
+	 box-shadow: 0 0 3px #E78F08;
+	 height:25px;
+}
+
+.bdb1{
+	border-bottom:1px dotted #CCC;
+}
+
+.mgb5{
+	margin-bottom:5px;
+}
+
+.mgb10{
+	margin-bottom:10px;
+}
+
+.dsb{
+	display:block;
+}
+
+.w50{
+	width:49%;
+}
+
+.w30{
+	width:30%;
+}
+
+.fl{
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
+.fwb{
+	font-weight:bold;
+}
+
+.p2{
+	padding:2px;
+}
+
+.p5{
+	padding:5px;
+}
+
+.tvo_header{
+}
+
+	.tvo_header .tvo_slogan{
+		background-image:url(../img/bgTopHeader.jpg);
+		height:29px;
+		line-height:29px;
+		position:relative;
+		padding-left:10px;
+		color:#8F8F8F;
+		font-size:11px;
+	}
+	
+		.tvo_header .tvo_slogan a.recruitment{
+			display:block;
+			height:29px;
+			width:133px;
+			background-image:url(../img/tuyendung.gif);
+			position:absolute;
+			right:0px;
+			top:0px;
+		}
+		
+.tvo_nav{
+	height:31px;
+	line-height:31px;
+	background-color:#143A83;
+	border-radius:5px;
+}
+
+	.tvo_nav ul{
+		display:block;
+		height:36px;
+		background-image:url(../img/active.png);
+		background-repeat:no-repeat;
+		background-position:top left;
+	}
+
+	.tvo_nav li{
+		float:left;
+	}
+	
+		.tvo_nav li a{
+			background-image:url(../img/seperator.png);
+			background-repeat:no-repeat;
+			background-position:2px center;
+			display:block;
+			color:#FFF;
+			padding-left:19px;
+			padding-right:19px;
+			text-decoration:none;
+		}
+		
+			.tvo_nav ul li.frist a{
+				background-image:none;
+				padding-left:89px;
+				background-image:url(../img/home-icon.png);
+				background-repeat:no-repeat;
+				background-position:21px center;
+			}
+		
+			.tvo_nav li a:hover{
+				color:#EF9823
+			}
+			
+.tvo_booking{
+	height:405px;
+	background-image:url(../img/bg_body.jpg);
+	margin-top:5px;
+	position:relative;
+}
+
+	.tvo_booking .tvo_bg_news{
+		position:absolute;
+		background-image:url(../img/new-icon.png);
+		height:73px;
+		width:107px;
+		top:18px;
+		left:316px;
+		z-index:99;
+	}
+	
+	.tvo_booking .tvo_bg_slogan{
+		background:url(../img/text-1.png);
+		height:52px;
+		width:289px;
+		position:absolute;
+		top:28px;
+		left:434px;
+	}
+
+	.tvo_booking .tvo_left{
+		margin-left:14px;
+		margin-top:18px;
+		background:url(../img/bg-bticket_03.jpg) repeat-x top;
+		height:352px;
+		width:344px;
+		float:left;
+		padding:8px;
+		-moz-border-radius:3px;
+		-webkit-boder-radius:3px;
+		-moz-box-shadow: 2px 2px 3px #768184;
+		-webkit-box-shadow: 2px 2px 3px #768184;
+		box-shadow: 2px 2px 3px #768184;
+		position:relative;
+	}
+	
+		.tvo_booking .tvo_left .tvo_title{
+			background:url(../img/Plane.png) no-repeat top left;
+			height:40px;
+			line-height:35px;
+			padding-left:60px;
+			font-weight:bold;
+			font-size:18px;
+			color:#FFF;
+		}
+		
+			.tvo_booking .tvo_left .tvo_content{
+				height:282px;
+				padding:15px;
+				background-color:#FFFFFF;
+			}
+			
+				.input1{
+					width:140px;
+					margin-right:5px;
+					padding-top:6px;
+					padding-bottom:6px;
+					background-color: #FCFBBB !important;
+					border: 1px solid #E78F08 !important;
+					-moz-box-shadow: 0 0 3px #E78F08;
+					-webkit-box-shadow: 0 0 3px #E78F08;
+					box-shadow: 0 0 3px #E78F08;
+				}
+				
+				.tvo_booking .tvo_left .tvo_content .box3{
+					line-height:140%;
+					width:70px;
+					margin-top:10px;
+					margin-left:10px;
+					padding-right:15px;
+				}
+				
+					.tvo_booking .tvo_left .tvo_content .box3 select{
+						width:100%;
+					}
+				
+					.tvo_booking .tvo_left .tvo_content .box3 span{
+						display:block;
+						color:#666;
+						padding:3px;
+						padding-top:5px;
+						padding-left:0px;
+					}
+				
+				.tvo_booking .tvo_left .tvo_content a.tvo_guide{
+					display:block;
+					color:#333;
+					font-weight:bold;
+					padding-top:45px;
+					padding-left:35px;
+					background-image:url(../img/tube.png);
+					background-repeat:no-repeat;
+					background-position:bottom left;
+				}
+				
+				.tvo_booking .tvo_left .tvo_content a.tvo_guide:hover{
+					color:#000;
+				}
+				
+				input.tvo_find{
+					display:block;
+					background-image:url(../img/search-button.png);
+					background-position:bottom left;
+					background-repeat:no-repeat;
+					width:141px;
+					height:45px;
+					border:0px;
+					line-height:43px;
+					font-weight:bold;
+					color:#FFF;
+					font-size:12px;
+					text-decoration:none;
+					margin-top:20px;
+					padding-left:30px;
+				}
+				
+				
+	/* End left */
+	
+	.tvo_booking .tvo_right{
+		background:#f6fbfd;
+		padding:10px 15px 20px 20px;
+		-moz-box-shadow: 2px 2px 3px #d7e0e2;
+		-webkit-box-shadow: 2px 2px 3px #d7e0e2;
+		box-shadow: 2px 2px 3px #c1ced2;
+		min-height:230px;
+		overflow:hidden;
+		margin-left:15px;
+		position:absolute;
+		width:500px;
+		bottom:18px;
+		right:16px;
+		padding-top:20px;
+	}
+	
+		.tvo_booking .tvo_right li{
+			background-image:url(../img/list-icon1.png);
+			background-repeat:no-repeat;
+			background-position:0px 3px;
+			padding-left:5px;
+			font-size:13px;
+			padding-bottom:7px;
+			margin-bottom:7px;
+		}
+	
+		.tvo_booking .tvo_right img{
+			margin-top:3px;
+			display:block;
+			padding:2px;
+			border:solid 1px #CECECE;
+			margin-right:10px;
+			float:left;
+		}
+		
+		.tvo_booking .tvo_right .time-before{
+			padding-left:20px;
+			background:url(../img/refresh.png) no-repeat left center;
+			float:left;
+			padding-right:20px;
+			line-height:30px;
+		}
+		
+		.tvo_booking .tvo_right .price2{
+			font-weight:bold;
+			line-height:30px;
+			float:left;
+		}
+		
+			.tvo_booking .tvo_right .price2 .bold-font-orange14{
+				color:#E8641B;
+				font-size:14px;
+			}
+			
+		.tvo_booking .tvo_right .viewDetail{
+			font-size:12px;
+			font-weight:bold;
+			color:#143982;
+			line-height: 30px;
+			width:90px;
+			display:block;
+			float:left;
+			margin-left:10px;
+			padding-left:20px;
+		}
+
+.tvo_bg_booking{
+	background-image:url(../img/bg3.jpg);
+	height:26px;
+}
+
+/* end Booking */
+
+
+.tvo_box{
+	padding:0px 0px 20px 10px;
+	background:white url(../img/bg3.jpg) no-repeat bottom left;
+}
+
+	.tvo_box .tvo_left{
+		height:545px;
+		float:left;
+	}
+	
+		.tvo_box .tvo_left .tvo_bg_left{
+			background:url(../img/left-service.png) no-repeat top right;
+			width:15px;
+			height: 535px;
+			float:left;
+		}
+	
+		.tvo_box .tvo_left .tvo_content{
+			position:relative;
+			background:url(../img/repeat-service_03.jpg) repeat-x;
+			width:340px;
+			height: 510px;
+			float:left;
+			padding-top:25px;
+		}
+		
+			.tvo_box .tvo_content .tvo_title{
+				padding-left:15px;
+				font-size:18px;
+				line-height:24px;
+				color:#0b1e6f;
+				font-weight:normal;
+			}
+			
+				.tvo_box .tvo_content .tvo_title p{
+					font-size:26px;
+					line-height:24px;
+					font-weight:bold;
+					letter-spacing:-2px;
+				}
+				
+			.tvo_box .tvo_left .tvo_content li{
+				margin:5px 0px;
+				color:#070757;
+				background:url(../img/list-icon2.png) no-repeat center left;
+				font-size: 14px;
+				margin-top:18px;
+				padding-left:12px;
+				margin-left:10px;
+			}
+			
+			.tvo_box .tvo_left .tvo_content .detail{
+				display:block;
+				text-align:right;
+				margin-top:5px;
+				font-size:12px;
+				font-weight:bold;
+				color:#143982;
+				line-height: 30px;
+				padding-right:20px;
+				font-size:13px;
+			}
+			
+				.tvo_box .tvo_left .tvo_content .bg_bottom{
+					background:url(../img/bg-service.jpg) no-repeat top left;
+					width:100%;
+					height:188px;
+					margin-top:41px;
+					text-align:right;
+				}
+		
+		.tvo_box .tvo_left .tvo_bg_right{
+			background:url(../img/right-service_03.jpg) no-repeat top left;
+			width:18px;
+			height:535px;
+			float:left;
+			margin-right:10px; 
+		}
+		
+		/* end Left */
+		
+		.tvo_box .tvo_right{
+			float:left;
+			height:545px;
+		}
+		
+			.tvo_box .tvo_right .tvo_bg_left{
+				background:url(../img/left-method_03.jpg) no-repeat top right;
+				width:15px;
+				height: 535px;
+				float:left;
+			}
+			
+			.tvo_box .tvo_right .tvo_content{
+				background:url(../img/repeat-service_03.jpg) repeat-x;
+				width:483px;
+				height: 510px;
+				float:left;
+				padding:15px 10px 10px 15px;
+			}
+			
+				.tvo_box .tvo_right .tvo_content li{
+					padding:3px 0px 5px 0px;
+				}
+				
+				.tvo_box .tvo_right .tvo_content li .title{
+					font-size:14px;
+					font-weight:bold;
+					color:#0b1e6f;
+					line-height:24px;
+					margin-top:3px;
+				}
+				
+				.tvo_box .tvo_right .tvo_content #addVP a{
+					text-align:center;
+					float:left;
+					font-weight:bold;
+					text-decoration:none;
+					color:#011059;
+					font-size:13px;
+					margin-bottom:15px;
+					margin-top:5px;
+					line-height:25px;
+				}
+				
+				.tvo_box .tvo_right .tvo_content #addVP .AddHN{
+					text-align:left;
+				}
+				
+				.tvo_box .tvo_right .tvo_content #addVP .AddSG{
+					text-align:right;
+					margin-left:-30px;
+				}
+				
+					.tvo_box .tvo_right .tvo_content #addVP a img{
+						display:block;
+					}
+				
+					.tvo_box .tvo_right .tvo_content #addVP .addhn{
+						display:block;
+						width:233px;
+						height:200px;
+						z-index:10;
+						position:absolute;
+						top:0px;
+						left:0px;
+						text-decoration:none;
+					}
+					
+						.tvo_box .tvo_right .tvo_content #addVP .addhn span{
+							text-decoration:none;
+							display:block;
+						}
+			
+			.tvo_box .tvo_right .tvo_bg_right{
+				background:url(../img/right-service_03.jpg) no-repeat top left;
+				width:18px;
+				height:535px;
+				float:left;
+			}
+			
+/* end box */
+
+.tvo_customer{
+	background:#f2f2f3 url(../img/bgKH.jpg) repeat-x top;
+	padding:0px 20px 10px 25px;
+}
+
+	.tvo_customer .tvo_title{
+		margin-bottom:20px;
+	}
+
+	.tvo_customer .tvo_left{
+		width:500px;
+		float:left;
+	}
+	
+		.tvo_customer .tvo_left li{
+			display:block;
+			padding-left:50px;
+			background:url(../img/mau.png) no-repeat left 3px;
+			min-height:55px;
+			margin-bottom:5px;
+			padding-bottom:5px;
+			font-size:13px;
+			color:#706F6F;
+			width:400px;
+			font-style:italic;
+			line-height:20px;
+		}
+		
+			.tvo_customer .tvo_left li span{
+				display:block;
+				font-size:11px;
+				line-height:25px;
+				color:#9C9C9C;
+			}
+			
+	.tvo_customer .tvo_right{
+		width:395px;
+		float:left;
+	}
+	
+		.tvo_customer .tvo_right h5{
+			font-size:13px;
+			font-weight:bold;
+			text-transform:uppercase;
+			letter-spacing:-1px;
+			color:#04438d;
+		}
+		
+		.tvo_customer .tvo_right label{
+			font-size:11px;
+			color:#155095;
+			line-height:14px;
+			font-weight:bold;
+			margin-bottom:5px;
+			display:block;
+			padding-left:10px;
+			background:url(../img/btn_circle.png) no-repeat left center;
+			margin-top:5px;
+		}
+		
+		.tvo_customer .tvo_right input{
+			border: solid 1px #e4e4e4;
+			height:24px;
+			background:#fff;
+			width:290px;
+			margin-bottom:10px;
+		}
+		
+		.tvo_customer .tvo_right .submitMessage{
+			width:66px;
+			height:34px;
+			cursor: pointer;
+			color:#fff;
+			background:url(../img/SendButton.png) no-repeat center right;
+			border:none;
+			font-weight:bold;
+			font-family:Arial, Helvetica, sans-serif;
+			display:block;
+		}
+		
+		.tvo_customer .tvo_right .messageKH {
+			width:290px;
+			height:65px;
+			border: solid 1px #e4e4e4;
+			font-size:12px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		
+.tvo_left_section{
+	width:679px;
+	min-height:100px;
+	border-right:1px dashed #CCC;
+	float:left;
+	padding-top:10px;
+}
+
+	.tvo_left_section .tvo_recruitment{
+		border-bottom:1px dashed #CCC;
+		position:relative;
+		font-weight:140%;
+		padding-bottom:5px;
+		margin-bottom:5px;
+	}
+	
+		.tvo_left_section .tvo_recruitment .tvo_detail{
+			position:absolute;
+			bottom:3px;
+			right:20px;
+		}
+		
+			.tvo_left_section .tvo_recruitment .tvo_detail a{
+				font-weight:normal;
+				font-size:11px;
+			}
+
+	.tvo_left_section .tvo_recruitment a{
+		display:block;
+		color:#143B85;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	
+		.tvo_left_section .tvo_recruitment a img{
+			display:block;
+			padding:5px;
+			width:100px;
+			border-radius:5px;
+			border:1px solid #CCC;
+			background:#FFFFFF;
+			box-shadow:3px 3px 3px #CCC;
+			float:left;
+			margin-right:10px;
+			margin-bottom:5px;
+		}
+	
+		.tvo_left_section .tvo_recruitment a:hover{
+			color:#F60;
+		}
+
+	.tvo_left_section .tvo_customer{
+		min-height:58px;
+		padding-bottom:5px;
+		margin-bottom:5px;
+		background:url(../img/customerIcon.png) no-repeat top left;
+		border-bottom:1px dashed #CCC;
+		padding-left:60px;
+		font-size:13px;
+		color:#666;
+		line-height:130%;
+	}
+	
+	.tvo_left_section .tvo_customer:frist-child{
+		border-bottom:0px;
+	}
+	
+		.tvo_left_section .tvo_customer .time{
+			display:inline-block;
+			background:#ededed;
+			color:#7a7a7a;
+			font-size:12px;
+			margin:5px 0px;
+			font-style:italic
+		}
+		
+		.tvo_left_section .tvo_customer .name{
+			color:#8e8b8b;
+			font-size:12px;
+			line-height:18px;
+		}
+
+	.tvo_left_section .tvo_schedule{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+		.tvo_left_section .tvo_schedule .content{
+			border-bottom:1px solid #C5DFF8;
+			padding-bottom:5px;
+			padding-top:5px;
+			line-height:40px;
+			height:40px;
+			overflow:hidden;
+		}
+		
+			.tvo_left_section .tvo_schedule .content img{
+				display:block;
+				padding:4px;
+				border-radius:3px;
+				border:1px solid #CCC;
+				box-shadow:2px 2px 2px #CCC;
+				background-color:#FFFFFF;
+				float:left;
+				margin-right:10px;
+			}
+			
+			.tvo_left_section .tvo_schedule .content .flight_code{
+				display:block;
+				float:left;
+				margin-right:10px;
+				width:60px;
+			}
+			
+			.tvo_left_section .tvo_schedule .content .time{
+				color:#143B85;
+				font-weight:bold;
+				font-size:18px;
+				float:left;
+				display:block;	
+			}
+			
+			.tvo_left_section .tvo_schedule .content .price{
+				color:#FF7B0F;
+				font-weight:bold;
+				font-size:18px;
+				min-width:150px;
+				margin-left:15px;
+				float:left;
+				display:block;
+			}
+			
+			.tvo_left_section .tvo_schedule .content .detailt{
+				display:block;
+				height:17px;
+				color:#143B85;
+				cursor:pointer;
+				font-weight:bold;
+				float:left;
+				background-image:url(../img/collaspe.png);
+				background-repeat:no-repeat;
+				background-position:right top;
+				line-height:17px;
+				padding-right:20px;
+				margin-top:10px;
+			}
+			
+			.tvo_left_section .tvo_schedule .content .chosen{
+				display:block;
+				float:left;
+				margin-left:10px;
+			}
+			
+				.tvo_left_section .tvo_schedule .content .chosen input{
+					display:block;
+					width:15px;
+					float:left;
+					margin-top:11px;
+				}
+				
+				.tvo_left_section .tvo_schedule .content .chosen span{
+					width:47px;
+					height:27px;
+					background:url(../img/btn-select-flight.png) no-repeat top left;
+					line-height:27px;
+					text-align:center;
+					color:#FFF;
+					font-weight:bold;
+					display:block;
+					float:left;
+					margin-top:3px;
+				}
+				
+				.tvo_left_section .tvo_schedule .content:hover .chosen span{
+					background:url(../img/btn-select-flight-hover.png) no-repeat top left;
+				}
+		
+			.tvo_left_section .tvo_schedule .hide_content{
+				background:whiteSmoke;
+				padding:10px;
+				line-height:140%;
+				color:#333;
+				display:none;
+			}
+			
+				.tvo_left_section .tvo_schedule .hide_content .three{
+					width:33%;
+					float:left;
+				}
+				
+					.tvo_left_section .tvo_schedule .hide_content .three img{
+						display:block;
+						margin-right:10px;
+						float:left;
+						margin-top:5px;
+						padding:2px;
+						border-radius:2px;
+						border:1px solid #CCC;
+					}
+					
+				.tvo_left_section .tvo_schedule .hide_content .tlcl1{
+					font-weight:bold;
+					color:#999 !important;
+				}
+				
+				.tvo_left_section .tvo_schedule .hide_content .tlcl2{
+					font-weight:bold;
+					font-size:16px;
+					color:#666;
+					padding-left:5px;
+					margin-bottom:10px;
+					display:block;
+					margin-top:10px;
+				}
+				
+				.tvo_left_section .tvo_schedule .hide_content table.red strong{
+					color:#F00;
+				}
+		
+		.tvo_left_section .tvo_schedule .content:hover{
+			background:#FFFF33;
+		}
+
+.tvo_right_section{
+	width:250px;
+	margin-left:10px;
+	float:left;
+	min-height:100px;
+	padding-top:10px;
+}
+
+.tvo_right_section .item{
+	padding-bottom:5px;
+	margin-bottom:10px;
+}
+
+ul.right_mnu li a{
+	display:block;
+	padding:2px;
+	margin-bottom:5px;
+	text-decoration:none;
+	background:url(../img/breadcrumb-connect.gif) no-repeat left center;
+	padding-left:14px;
+	text-decoration:none;
+	color:#143B85;
+}
+
+	ul.right_mnu li a:hover{
+		color:#F60;
+	}
+
+	.tvo_right_section .item .title{
+		color:#143B85;
+		font-weight:bold;
+		font-size:20px;
+		padding-bottom:5px;
+		display:block;
+	}
+	
+		.tvo_right_section .item .search_form{
+			background: #f5f5f5;
+			border: 1px solid #c7c7c7;
+			padding: 5px 7px;
+		}
+		
+			.tvo_right_section .item .search_form .inp1{
+				width:15px;
+			}
+			
+			.tvo_right_section .item .search_form .label1{
+				line-height:20px;
+				padding-right:10px;
+				color:#888;
+			}
+			
+			.tvo_right_section .item .search_form .label2{
+				display:block;
+				font-weight:bold;
+				color:#333;
+				line-height:20px;
+				font-family:arial,tahoma !important;
+			}
+			
+			.tvo_right_section .item .search_form span.select{
+				color:#FF7B0F;
+				font-weight:bold;
+			}
+			
+			.tvo_right_section .item .search_form .input1{
+				width:90%;
+			}
+			
+			.tvo_right_section .item .search_form .w50{
+				width:45% !important;
+			}
+			
+.tvo_footer{
+	background:url(../img/newBgFooter.jpg);
+	min-height:280px;
+	padding:10px;
+	color:#FFF;
+}
+
+	.tvo_footer .tvo_default{
+		position:relative;
+		padding-bottom:10px;
+	}
+
+	.tvo_footer .tvo_default .tvo_right_button{
+		position:absolute;
+		right:10px;
+		top:10px;
+	}
+
+	.tvo_footer .tvo_default .fl{
+		margin-right:10px;
+	}
+	
+	.tvo_footer img.bg_footer{
+		display:block;
+		float:left;
+		padding:2px;
+		border-radius:2px;
+		border:1px solid #CCC;
+		margin-right:10px;
+		margin-bottom:5px;
+	}
+	
+	.tvo_footer .tvo_left_footer{
+		margin-left:20px;
+		padding:10px;
+		float:left;
+		width:400px;
+	}
+	
+	.tvo_footer .tvo_right_footer{
+		width:400px;
+		float:left;
+		padding:10px;
+	}
+	
+	
+input.date{
+	background:url(../img/date-input.gif) no-repeat right center;
+}
+
+.NavFooter {background-color: white !important;background:url(../img/lineNavFooter.png) no-repeat center top; padding-top:20px; clear: both; }
+.NavFooter .innerNavFooter {background:#e2f4fd url(../img/bgFooter2.jpg) repeat-x top; padding:10px 20px 20px 20px;}
+.innerNavFooter .col {width:205px; margin-left:20px; float:left}
+.innerNavFooter .col h1 { margin-bottom:5px;}
+.innerNavFooter .col ul {list-style:none; margin-left:5px;}
+.innerNavFooter .col ul li {}
+.innerNavFooter .col ul li a{background:url(../img/listItem4.png) no-repeat center left; padding-left:15px; font-size:11px; line-height:18px; color:#4f4f4f; text-decoration:none;}
+.innerNavFooter .col ul li a:hover {color:#1c4179;}
+
+.headU {background:url(../img/abayIcon.png) no-repeat top left; padding:9px 0px 0px 25px; font-weight:bold;}
+.listFAQ{margin: 5px 0px 5px 25px;list-style: none;}
+.listFAQ li {}
+.listFAQ li a{ background:url(../img/listItem-3.png) no-repeat center left; font-size:11px; color:#fff;text-decoration:none; padding-left:10px; line-height:18px;}
+.listFAQ li a:hover {text-decoration:underline;}

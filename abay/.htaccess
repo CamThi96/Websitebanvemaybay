@@ -1,0 +1,45 @@
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+<FilesMatch "\.php$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.htm$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.shtm$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.shtml$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.xhtml$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+<FilesMatch "index\.php$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+<FilesMatch "connector\.php$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+<FilesMatch "ckfinder\.html$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+Options All -Indexes
+Options +FollowSymLinks
+DirectoryIndex index.php/home
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_URI} !.(css|gif|ico|jpg|js|png|swf|txt)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ abay/index.php/$1 [L,QSA]
